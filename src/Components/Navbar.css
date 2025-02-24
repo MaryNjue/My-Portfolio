@@ -2,14 +2,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
     background-color: transparent;
-    position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 1000;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    background-color: #fff;
 }
 .logo {
     font-size: 1rem;
@@ -34,8 +35,18 @@
 
 .navbar ul li a:hover {
     color: blue;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid blue;
 }
 
+.navbtn{
+    border-radius: 2rem;
+    font-weight: 130;
+    padding: 1rem;
+    background-color: blue;
+    color: #fff;
+    border: none;
+}
 @media screen and (max-width: 1010px) {
     .navbar {
         flex-direction: column;

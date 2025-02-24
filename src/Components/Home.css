@@ -1,0 +1,82 @@
+#home{
+    width: 100vw;
+    max-width: 80rem;
+    margin: 7rem auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    padding: 2rem;
+    /*border: 2px solid crimson;*/
+    justify-content: space-between;
+}
+.homeContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bg{
+    object-fit: cover;
+    height: 25rem;
+    width: 21rem;
+    border-radius: 100rem;
+}
+.introText{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+.introName{
+    color: blue;
+}
+.introPara{
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.5px;
+}
+.homebtn{
+    width: 8rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: blue;
+    color: #fff;
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
+@media screen and (max-width: 636px) {
+   #home{
+    gap: 1rem;
+   } 
+}
+@media screen and (max-width: 564px) {
+    .bg{
+        height: 20rem;
+        width: 20rem;
+    }
+ }
+ @media screen and (max-width: 502px) {
+    .introText{
+        font-size: 2rem;
+    }
+    .hello{
+        font-size: 1rem;
+    }
+    .introPara{
+        font-weight: 100;
+    }
+    }
+@media screen and (max-width: 564px) {
+    .bg{
+        height: 10rem;
+        width: 10rem;
+        }
+     }
+ 
